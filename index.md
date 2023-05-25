@@ -15,7 +15,7 @@ layout: homepage
 
 ## About me 
 
-<p aling="center">
+<p aling="center" class="text-center">
     <img src="assets/images/profile_photo.jpg" class="rounded-circle" alt="Profile Photo" style="align:center;width:200px;height:auto">
 </p>
 
