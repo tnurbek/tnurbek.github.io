@@ -2,11 +2,11 @@
 layout: homepage 
 ---
 
-<div class="nav-scroller py-1 mb-2 bg-secondary">
-    <nav class="nav d-flex"> 
-        <a class="p-2 text-muted text-white active" href="#">Profile</a>
-        <a class="p-2 text-muted text-white" href="#">Publications</a>
-        <a class="p-2 text-muted text-white" href="#">Resume</a>
+<div class="nav-scroller py-1 mb-2">
+    <nav class="nav d-flex bg-secondary"> 
+        <a class="p-2 text-white active" href="#">Profile</a>
+        <a class="p-2 text-white" href="#">Publications</a>
+        <a class="p-2 text-white" href="#">Resume</a>
     </nav>
 </div>
 
