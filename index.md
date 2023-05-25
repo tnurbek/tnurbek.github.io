@@ -4,9 +4,9 @@ layout: homepage
 
 <div class="nav-scroller py-1 mb-2 bg-secondary">
     <nav class="nav d-flex"> 
-        <a class="p-2 text-muted text-dark active" href="#">Profile</a>
-        <a class="p-2 text-muted text-dark" href="#">Publications</a>
-        <a class="p-2 text-muted text-dark" href="#">Resume</a>
+        <a class="p-2 text-muted text-white active" href="#">Profile</a>
+        <a class="p-2 text-muted text-white" href="#">Publications</a>
+        <a class="p-2 text-muted text-white" href="#">Resume</a>
     </nav>
 </div>
 
