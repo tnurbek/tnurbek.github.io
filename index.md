@@ -3,7 +3,7 @@ layout: homepage
 ---
 
 <div class="nav-scroller py-1 mb-2">
-    <nav class="nav d-flex justify-content-between">
+    <nav class="nav d-flex"> 
         <a class="p-2 text-muted active" href="#">Profile</a>
         <a class="p-2 text-muted" href="#">Publications</a>
         <a class="p-2 text-muted" href="#">Resume</a>
