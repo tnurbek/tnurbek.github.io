@@ -13,7 +13,7 @@ layout: homepage
 
 <div class="row mt-2">
     <div class="col-md-12">
-        <div class="card flex-md-row mb-4 box-shadow h-md-250">
+        <div class="card flex-md-row mb-2 box-shadow h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
                 <strong class="d-inline-block mb-2 text-primary">CVPR-2023</strong>
                 <h3 class="mb-1">
@@ -36,7 +36,7 @@ layout: homepage
         </div>
     </div>
     <div class="col-md-12">
-        <div class="card flex-md-row mb-4 box-shadow h-md-250">
+        <div class="card flex-md-row mb-2 box-shadow h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
                 <strong class="d-inline-block mb-2 text-success">ACM ICEMIS'2020</strong>
                 <h3 class="mb-1">
@@ -53,7 +53,7 @@ layout: homepage
         </div>
     </div>
     <div class="col-md-12">
-        <div class="card flex-md-row mb-4 box-shadow h-md-250">
+        <div class="card flex-md-row mb-2 box-shadow h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
                 <strong class="d-inline-block mb-2 text-success">IEEE ICCSA'2019</strong>
                 <h3 class="mb-0">
