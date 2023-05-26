@@ -37,10 +37,4 @@ layout: homepage
             <li>[08.21]</li>
         </ul>
     </div>
-</div>
-
-<!-- <div class="row">
-    <div class="col-md-12 border bg-light">
-    </div>
-</div> -->
-{% include_relative profile.md %}
+</div> 
