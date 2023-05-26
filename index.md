@@ -2,6 +2,14 @@
 layout: homepage 
 ---
 
+<div class="nav-scroller">
+    <nav class="nav d-flex border">
+        <a class="p-2 nav-link text-dark active" href="#">Profile</a>
+        <a class="p-2 nav-link text-dark" href="#">Publications</a>
+        <a class="p-2 nav-link text-dark" href="#">Resume</a>
+    </nav>
+</div>
+
 <div class="row border-bottom">
     <div class="col-md-3 border-right">
         <div class="d-flex flex-column align-items-center text-center py-5">
