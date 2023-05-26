@@ -39,8 +39,8 @@ layout: homepage
     </div>
 </div>
 
-<div class="row">
+<!-- <div class="row">
     <div class="col-md-12 border bg-light">
-        {% include_relative profile.md %}
     </div>
-</div>
+</div> -->
+{% include_relative profile.md %}
