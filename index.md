@@ -19,8 +19,6 @@ layout: homepage
             <img src="../assets/images/profile_photo.jpg" class="rounded-circle" alt="Profile Photo"
                 width="80%">
         </div>
-        <!-- <p aling="center" class="text-center mt-3"> -->
-        <!-- </p> -->
     </div>
     <div class="col-md-9">
         <h2 class="mt-4">About me</h2>
