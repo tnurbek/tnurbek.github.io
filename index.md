@@ -4,8 +4,8 @@ layout: homepage
 
 <div class="nav-scroller">
     <nav class="nav d-flex border">
-        <a class="p-2 nav-link text-dark active" href="#">Profile</a>
-        <a class="p-2 nav-link text-dark" href="#">Publications</a>
+        <a class="p-2 nav-link text-dark active" href="index">Profile</a>
+        <a class="p-2 nav-link text-dark" href="publications">Publications</a>
         <a class="p-2 nav-link text-dark" href="#">Resume</a>
     </nav>
 </div>
