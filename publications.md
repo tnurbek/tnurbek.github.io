@@ -12,6 +12,7 @@ layout: homepage
 
 
 <div class="row mt-2">
+    <h3 class="ml-3 mt-2 text-danger">Publications</h3>
     <div class="col-md-12">
         <div class="card flex-md-row mb-2 box-shadow h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
