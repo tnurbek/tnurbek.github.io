@@ -24,8 +24,8 @@ layout: homepage
                 <div class="mt-2">
                     <nav class="">
                         <!-- <a class="mr-2" href="#">Project Page</a>  -->
-                        <a class="mr-2" href="#">Report</a> 
-                        <a class="" href="#">Code</a> 
+                        <a class="mr-2" href="https://openaccess.thecvf.com/content/CVPR2023/papers/Tastan_CaPriDe_Learning_Confidential_and_Private_Decentralized_Learning_Based_on_Encryption-Friendly_CVPR_2023_paper.pdf">Report</a> 
+                        <a class="" href="https://github.com/tnurbek/capride-learning">Code</a> 
                     </nav>
                 </div>
             </div>
