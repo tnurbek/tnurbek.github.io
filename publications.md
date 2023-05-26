@@ -6,7 +6,7 @@ layout: homepage
     <nav class="nav d-flex border">
         <a class="p-2 nav-link text-dark" href="index">Profile</a>
         <a class="p-2 nav-link text-dark active" href="publications">Publications</a>
-        <a class="p-2 nav-link text-dark" href="#">Resume</a>
+        <a class="p-2 nav-link text-dark" href="assets/files/NurbekTastan.pdf">Resume</a>
     </nav>
 </div>
 
