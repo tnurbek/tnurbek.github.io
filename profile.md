@@ -10,8 +10,5 @@ past experiences:
 - ["Backend Software Engineer", "Web App (Go/Postgre/Node)", "Hiventive", "Fully Remote", "2020-2021"]
 
 fields_of_interests: ["Machine Learning", "Computer Vision", "Trustworthy AI", "Federated Learning"]
-# technical_background: ["Motion Planning", "Optimization", "Nonlinear Control", "Real-Time Systems", "Automated Planning"]
-# currently_learning: ["Social Media Bots", "Crypto Trading Bots", "Aerial Robotics"]
-# will_learn: ["Web3"]
 hobbies: ["Volleyball", "Cinema", "Competitive Gaming", "Table Tennis"]
 ```
