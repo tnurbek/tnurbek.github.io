@@ -24,7 +24,7 @@ layout: homepage
         <h2 class="mt-4">About me</h2>
         <p class="text-justify">
             I am Nurbek Tastan, currently pursuing a Master of Science degree in Machine Learning. I am
-            associated with the <a href="https://www.sprintai.org/">SPriNT-AI lab</a> at MBZUAI, where I conduct my research under the guidance of my
+            associated with the <a target="_blank" class="usual-link" href="https://www.sprintai.org/">SPriNT-AI lab</a> at MBZUAI, where I conduct my research under the guidance of my
             supervisor, Dr. Karthik Nandakumar. With over three years of professional experience as a Data
             Scientist, I possess a comprehensive knowledge of the modern machine learning pipeline and
             strong mathematical and probabilistic thinking skills. I specialize in modeling complex
