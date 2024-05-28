@@ -7,3 +7,15 @@
 
 "Vision":
   color: "#009f36"
+
+"CVPR":
+  url: https://cvpr.thecvf.com/
+  color: "#000000"
+
+"WACV":
+  url: https://wacv2024.thecvf.com/
+  color: "green"
+
+"IJCAI":
+  url: https://ijcai24.org/
+  color: "blue"
