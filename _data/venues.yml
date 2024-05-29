@@ -10,12 +10,20 @@
 
 "CVPR":
   url: https://cvpr.thecvf.com/
-  color: "#000000"
+  color: "#101A74"
 
 "WACV":
   url: https://wacv2024.thecvf.com/
-  color: "green"
+  color: "#D11F65"
 
 "IJCAI":
   url: https://ijcai24.org/
-  color: "blue"
+  color: "#3A830A"
+
+"ACM ICEMIS":
+  url: https://dl.acm.org/conference/icemis
+  color: "#b71c1c"
+
+"ICCSA":
+  url: https://iccsa.org/
+  color: "#b71c1c"
