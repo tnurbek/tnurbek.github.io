@@ -2,17 +2,17 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Nurbek Tastan
     - name: Date of Birth
-      value: 14th March 1879
+      value: 6th June 1999
     - name: Languages
-      value: English, German
+      value: Kazakh, English
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
+      institution: Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), Abu-Dhabi, UAE 
       year: 1905
       description:
         - Description 1.

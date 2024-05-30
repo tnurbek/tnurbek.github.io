@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Doctoral Researcher, <a href='#'>MBZUAI</a>. # Contacts. Moto. Etc.
+subtitle: Doctoral Researcher, <a href='https://mbzuai.ac.ae/'>MBZUAI</a>. # Contacts. Moto. Etc.
 
 profile:
   align: right
@@ -23,4 +23,22 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-I am Nurbek Tastan, currently pursuing a <b>Doctor of Philosophy</b> degree in Machine Learning. I am associated with the [SPriNT-AI lab](https://www.sprintai.org/) at MBZUAI, where I conduct my research under the guidance of my supervisor, Dr. Karthik Nandakumar. With over three years of professional experience as a Data Scientist, I possess a comprehensive knowledge of the modern machine learning pipeline and strong mathematical and probabilistic thinking skills. I specialize in modeling complex machine learning, computer vision, deep learning, and optimization algorithms. My research primarily focuses on the areas of federated learning and ensuring the trustworthiness of artificial intelligence. 
+I am Nurbek Tastan, currently pursuing a <b>Doctor of Philosophy</b> degree in Machine Learning. I am associated with the [SPriNT-AI lab](https://www.sprintai.org/) at MBZUAI, where I conduct my research under the guidance of my supervisor, [Dr. Karthik Nandakumar](https://www.sprintai.org/nkarthik). With over four years of professional experience as a machine learning researcher, I possess a comprehensive knowledge of the modern machine learning pipeline and strong mathematical and probabilistic thinking skills. I specialize in modeling complex machine learning, computer vision, deep learning, and distributed optimization algorithms. My research primarily focuses on the areas of <b>federated learning</b> and ensuring the <b>trustworthiness</b> of artificial intelligence systems. 
+
+
+
+
+<!-- ```yaml
+name: Nurbek Tastan 
+located_in: Abu Dhabi, UAE 
+from: Almaty, Kazakhstan
+current position: Doctoral Researcher 
+education: ["PhD in Machine Learning", "MSc in Machine Learning", "BSc in Cybersecurity"] 
+company: Mohamed bin Zayed University of Artificial Intelligence 
+past experiences: 
+- ["Data Scientist", "InCyberService", "Almaty, Kazakhstan", "05.20-09.21"]
+- ["Python Developer and Teacher", "Bolashak School, IITU", "Almaty, Kazakhstan", "01.18-03.19"]
+
+fields_of_interests: ["Federated Learning", "Trustworthy AI", "Machine Learning", "Computer Vision"]
+hobbies: ["Table Tennis", "Volleyball", "Cinema", "Competitive Gaming"] 
+``` -->
