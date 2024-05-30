@@ -68,22 +68,6 @@
       "summary": "The coveted Altyn Belgi - the term is Kazakh for golden badge - is a prize that is given to students who get top marks (only A) in all their subjects in every one of their last seven years at school."
     }
   ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2022-12-17",
-      "issuer": "DeepLearning.AI",
-      "url": "https://www.coursera.org/account/accomplishments/specialization/7PDJ766XX2Y7",
-      "icon": "fa-solid fa-square-check"
-    },
-    {
-      "name": "Cybersecurity",
-      "date": "2020-06-05",
-      "issuer": "IBM",
-      "url": "https://www.coursera.org/account/accomplishments/verify/LYADQQ8YT2B5",
-      "icon": "fa-solid fa-square-check"
-    }
-  ],
   "references": [
     {
       "name": "Dr. Karthik Nandakumar",
