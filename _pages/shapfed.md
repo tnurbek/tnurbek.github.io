@@ -14,12 +14,12 @@ permalink: /shapfed/
     <h2 style="font-weight: bold;">Redefining Contributions: Shapley-Driven Federated Learning</h2> 
     <h4>
         <strong style="margin-right: 80px;"><a href="https://tnurbek.github.io/" target="_blank" rel="noopener noreferrer">Nurbek Tastan</a></strong>
-        <strong style="margin-right: 80px;"><a href="#" rel="noopener noreferrer">Samar Fares</a></strong>
-        <strong><a href="https://liuzhuang13.github.io/" target="_blank" rel="noopener noreferrer">Toluwani Aremu</a></strong>
+        <strong style="margin-right: 80px;"><a href="https://www.linkedin.com/in/samarfares/" rel="noopener noreferrer">Samar Fares</a></strong>
+        <strong><a href="https://www.toluwaniaremu.com/" target="_blank" rel="noopener noreferrer">Toluwani Aremu</a></strong>
     </h4>
     <h4>
-        <strong style="margin-right: 80px;"><a href="https://liuzhuang13.github.io/" target="_blank" rel="noopener noreferrer">Samuel Horvath</a></strong>
-        <strong><a href="https://liuzhuang13.github.io/" target="_blank" rel="noopener noreferrer">Karthik Nandakumar</a></strong>
+        <strong style="margin-right: 80px;"><a href="https://samuelhorvath.github.io/" target="_blank" rel="noopener noreferrer">Samuel Horvath</a></strong>
+        <strong><a href="https://www.sprintai.org/nkarthik" target="_blank" rel="noopener noreferrer">Karthik Nandakumar</a></strong>
     </h4>
     <div style="display: flex; justify-content: center; align-items: center; gap: 40px;">
         <div style="text-align: center; position: relative; max-width: 80%; margin-top: 20px;">
@@ -31,9 +31,9 @@ permalink: /shapfed/
     <div class="col-sm-12">
         <div class="b-container" style="text-align: center; margin-bottom: 20px;"> 
             <a href="" target="_blank" rel="noopener noreferrer" class="btn" style="font-size: 1.1rem; text-transform: lowercase; border-radius: 1.05rem; padding: .7rem 2.14rem;"> <i class="fa-solid fa-file-pdf"></i>  Paper </a> 
-            <a href="" target="_blank" rel="noopener noreferrer" class="btn" style="font-size: 1.1rem; text-transform: lowercase; border-radius: 1.05rem; padding: .7rem 2.14rem;"> <i class="fa-brands fa-github"></i>  Code </a> 
+            <a href="" target="_blank" rel="noopener noreferrer" class="btn" style="font-size: 1.1rem; text-transform: lowercase; border-radius: 1.05rem; padding: .7rem 2.14rem;"> <i class="fa-solid fa-code"></i>  Code </a> 
             <a href="" target="_blank" rel="noopener noreferrer" class="btn" style="font-size: 1.1rem; text-transform: lowercase; border-radius: 1.05rem; padding: .7rem 2.14rem;"> <i class="fa-brands fa-youtube"></i>  Video </a> 
-            <a href="" target="_blank" rel="noopener noreferrer" class="btn" style="font-size: 1.1rem; text-transform: lowercase; border-radius: 1.05rem; padding: .7rem 2.14rem;"> <i class="fa-brands fa-slideshare"></i>  Slides </a> 
+            <a href="" target="_blank" rel="noopener noreferrer" class="btn" style="font-size: 1.1rem; text-transform: lowercase; border-radius: 1.05rem; padding: .7rem 2.14rem;"> <i class="fa-solid fa-file-powerpoint"></i>  Slides </a> 
         </div>
     </div>
 </div>
