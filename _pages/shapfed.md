@@ -1,12 +1,13 @@
 ---
 layout: page
-title: 
+title: ShapFed
 description: 
 img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: false
 permalink: /shapfed/
+projectpage: yess
 ---
 
 
@@ -30,7 +31,7 @@ permalink: /shapfed/
 <div class="row">
     <div class="col-sm-12">
         <div class="b-container" style="text-align: center; margin-bottom: 20px;"> 
-            <a href="" target="_blank" rel="noopener noreferrer" class="btn" style="font-size: 1.1rem; text-transform: lowercase; border-radius: 1.05rem; padding: .7rem 2.14rem;"> <i class="fa-solid fa-file-pdf"></i>  Paper </a> 
+            <a href="https://arxiv.org/abs/2406.00569/" target="_blank" rel="noopener noreferrer" class="btn" style="font-size: 1.1rem; text-transform: lowercase; border-radius: 1.05rem; padding: .7rem 2.14rem;"> <i class="fa-solid fa-file-pdf"></i>  Paper </a> 
             <a href="https://github.com/tnurbek/shapfed/" target="_blank" rel="noopener noreferrer" class="btn" style="font-size: 1.1rem; text-transform: lowercase; border-radius: 1.05rem; padding: .7rem 2.14rem;"> <i class="fa-solid fa-code"></i>  Code </a> 
             <a href="" target="_blank" rel="noopener noreferrer" class="btn" style="font-size: 1.1rem; text-transform: lowercase; border-radius: 1.05rem; padding: .7rem 2.14rem;"> <i class="fa-brands fa-youtube"></i>  Video </a> 
             <a href="" target="_blank" rel="noopener noreferrer" class="btn" style="font-size: 1.1rem; text-transform: lowercase; border-radius: 1.05rem; padding: .7rem 2.14rem;"> <i class="fa-solid fa-file-powerpoint"></i>  Slides </a> 
