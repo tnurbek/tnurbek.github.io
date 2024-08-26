@@ -64,7 +64,7 @@ projectpage: yess
     </div>
 </div>
 <div class="caption text-left" style="text-align: justify;">
-    <b>Overview of our proposed ShapFed algorithm:</b> Each participant \(i\) transmits their locally computed iterates \(w_i\) to the server. The server then, (i) computes class-specific Shapley values (CSSVs) using the last layer parameters (gradients) \(\hat{w}\) (as illustrated in Figure \ref{fig: network-illustration}), (ii) aggregates the weights by employing normalized contribution assessment values \(\tilde{\gamma}_i\) for each participant \(i\), and (iii) broadcasts the personalized weights \(\bar{w}_i\) to each participant, using their individual, not-normalized contribution values \(\gamma_i\). 
+    <b>Overview of our proposed ShapFed algorithm:</b> Each participant \(i\) transmits their locally computed iterates \(w_i\) to the server. The server then, (i) computes class-specific Shapley values (CSSVs) using the last layer parameters (gradients) \(\hat{w}\), (ii) aggregates the weights by employing normalized contribution assessment values \(\tilde{\gamma}_i\) for each participant \(i\), and (iii) broadcasts the personalized weights \(\bar{w}_i\) to each participant, using their individual, not-normalized contribution values \(\gamma_i\). 
 </div>
 
 <hr>
