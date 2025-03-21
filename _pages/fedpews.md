@@ -74,7 +74,7 @@ mathjax: true
 
 <div class="row justify-content-between">
     <div class="col-sm-10 mx-auto">
-        {% include figure.liquid loading="eager" path="assets/img/fedpews/AlgoFed.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/fedpews/AlgoFed.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
