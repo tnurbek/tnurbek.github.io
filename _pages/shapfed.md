@@ -74,10 +74,10 @@ mathjax: true
 
 <div class="row justify-content-between">
     <div class="col-sm-5 mx-auto">
-        {% include figure.liquid loading="eager" path="assets/img/shapfed/pseudo-code.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/shapfed/pseudo-code.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-7">
-        {% include figure.liquid loading="eager" path="assets/img/shapfed/alignment.jpg" title="example image" class="img-fluid z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/shapfed/alignment.png" title="example image" class="img-fluid z-depth-1" %}
         <div class="caption text-left">
             <b>Weighted Aggregation:</b> The optimal weights \(w_s^{\star}\) are derived using Equation 7, while <span style="color: red;">\(w_s\)</span> represents the result of applying equal weights (FedAvg). <b>Personalization:</b> Rather than distributing a uniform global model to all users, we provide personalized weights \(\bar{w}_i\), which are \(\gamma_i\) combinations of individual user weights \(w_i\) and the optimally aggregated weight \(w_s^{\star}\). 
         </div> 
@@ -90,13 +90,13 @@ mathjax: true
 
 <div class="row justify-content-between">
     <div class="col-sm-5 mx-auto">
-        {% include figure.liquid loading="eager" path="assets/img/shapfed/contribution-comparison.jpg" title="example image" class="img-fluid z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/shapfed/contribution-comparison.png" title="example image" class="img-fluid z-depth-1" %}
         <div class="caption text-left">
             Comparison of our proposed contribution assessment algorithm (CSSV) with CGSV and true Shapley value computations using ResNet-34 architecture on Chest X-Ray dataset.
         </div>
     </div>
     <div class="col-sm-7">
-        {% include figure.liquid loading="eager" path="assets/img/shapfed/cifar10-skew.jpg" title="example image" class="img-fluid z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/shapfed/cifar10-skew.png" title="example image" class="img-fluid z-depth-1" %}
         <div class="caption text-left">
             Heatmap visualization of class-specific Shapley values for heterogeneous setting (explained in Section 5.2) evaluated on CIFAR-10 dataset.
         </div> 
@@ -109,7 +109,7 @@ mathjax: true
 
 <div class="row justify-content-between">
     <div class="col-sm-9 mx-auto">
-        {% include figure.liquid loading="eager" path="assets/img/shapfed/imbalanced_cifar.jpg" title="example image" class="img-fluid z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/shapfed/imbalanced_cifar.png" title="example image" class="img-fluid z-depth-1" %}
         <div class="caption text-left">
             Comparing FedAvg and ShapFed-WA on CIFAR10 under an imbalanced split scenario: insights into the balanced accuracy of four individual participants. 
         </div>
@@ -119,7 +119,7 @@ mathjax: true
 
 <div class="row justify-content-between">
     <div class="col-sm-8 mx-auto">
-        {% include figure.liquid loading="eager" path="assets/img/shapfed/fedisic-plot.jpg" title="example image" class="img-fluid z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/shapfed/fedisic-plot.png" title="example image" class="img-fluid z-depth-1" %}
         <div class="caption text-left">
             <b>(Left)</b> The balanced accuracy of our methods (ShapFed-WA & ShapFed) vs FedAvg. <b>(Right)</b> Per-participant accuracy using all methods evaluated on Fed-ISIC2019 dataset. 
         </div>
