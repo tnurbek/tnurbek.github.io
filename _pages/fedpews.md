@@ -32,8 +32,8 @@ mathjax: true
 <div class="row">
     <div class="col-sm-12">
         <div class="b-container" style="text-align: center; margin-bottom: 20px;"> 
-            <a href="https://arxiv.org/abs/2406.00569/" target="_blank" rel="noopener noreferrer" class="btn" style="font-size: 1.1rem; text-transform: lowercase; border-radius: 1.05rem; padding: .7rem 2.14rem;"> <i class="fa-solid fa-file-pdf"></i>  Paper </a> 
-            <a href="https://github.com/tnurbek/shapfed/" target="_blank" rel="noopener noreferrer" class="btn" style="font-size: 1.1rem; text-transform: lowercase; border-radius: 1.05rem; padding: .7rem 2.14rem;"> <i class="fa-solid fa-code"></i>  Code </a> 
+            <a href="https://openreview.net/pdf?id=iYwiyS1YdQ" target="_blank" rel="noopener noreferrer" class="btn" style="font-size: 1.1rem; text-transform: lowercase; border-radius: 1.05rem; padding: .7rem 2.14rem;"> <i class="fa-solid fa-file-pdf"></i>  Paper </a> 
+            <a href="https://github.com/tnurbek/fedpews/" target="_blank" rel="noopener noreferrer" class="btn" style="font-size: 1.1rem; text-transform: lowercase; border-radius: 1.05rem; padding: .7rem 2.14rem;"> <i class="fa-solid fa-file-code"></i>  Code </a> 
             <!-- <a href="" target="_blank" rel="noopener noreferrer" class="btn" style="font-size: 1.1rem; text-transform: lowercase; border-radius: 1.05rem; padding: .7rem 2.14rem;"> <i class="fa-brands fa-youtube"></i>  Video </a>  -->
             <!-- <a href="" target="_blank" rel="noopener noreferrer" class="btn" style="font-size: 1.1rem; text-transform: lowercase; border-radius: 1.05rem; padding: .7rem 2.14rem;"> <i class="fa-solid fa-file-powerpoint"></i>  Slides </a>  -->
         </div>
@@ -110,7 +110,7 @@ mathjax: true
 #### **Results: Improved communication efficiency and accuracy**
 
 
-<table style="width: 100%; border-collapse: collapse; margin-top: 20px;" border="1" class="text-center col-sm-12">
+<table style="width: 100%; border-collapse: collapse; margin-top: 20px;" border="1" class="text-center col-sm-12 mx-auto">
     <caption>The required number of collaboration rounds to reach target accuracy \(\upsilon\) \(\%\) and the final accuracy after \(T\) rounds. The results are averaged over 3 seeds. <span style="color: red;">\(\times\)</span> indicates that the algorithm cannot reach target accuracy \(\upsilon\) within \(T\) rounds and <span style="color: red;">NA</span> means that it reaches \(\upsilon\) only in one random seed. </caption>
     <thead>
         <tr style="background-color: lightgrey;">
