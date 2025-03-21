@@ -8,6 +8,7 @@ category: work
 related_publications: false
 permalink: /shapfed/
 projectpage: yess
+mathjax: true
 ---
 
 

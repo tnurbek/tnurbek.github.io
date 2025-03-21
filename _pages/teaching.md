@@ -15,7 +15,9 @@ nav_order: 5
         <ul>
             <li><a href="https://mbzuai.ac.ae">MBZUAI</a></li>
             <ul>
-                <li>DS702: Big Data Processing [Spring, 2024]</li>
+                <li><span style="font-weight:bold; color:red;">(Lead TA)</span> DS702: Big Data Processing [Spring, 2025]</li>
+                <li><span style="font-weight:bold; color:red;">(Lead TA)</span> MTH701: Mathematical Foundations of Artificial Intelligence [Fall, 2024]</li>
+                <li><span style="font-weight:bold; color:red;">(Lead TA)</span> DS702: Big Data Processing [Spring, 2024]</li>
                 <li>DS702: Big Data Processing [Spring, 2023]</li>
                 <li>MTH701: Mathematical Foundations of Artificial Intelligence [Fall, 2022]</li>
                 <li>DS702: Big Data Processing [Spring, 2022]</li>
