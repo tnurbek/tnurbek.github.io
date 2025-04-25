@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Doctoral Researcher, <a href='https://mbzuai.ac.ae/'>MBZUAI</a>. # Contacts. Moto. Etc.
+subtitle: PhD Candidate in Machine Learning, <a href='https://mbzuai.ac.ae/'>MBZUAI</a>. # Contacts. Moto. Etc.
 
 profile:
   align: right
