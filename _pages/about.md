@@ -23,7 +23,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-I am Nurbek Tastan, currently pursuing a <b>Doctor of Philosophy</b> degree in Machine Learning. I am associated with the [SPriNT-AI lab](https://www.sprintai.org/) at MBZUAI, where I conduct my research under the guidance of my supervisor, [Dr. Karthik Nandakumar](https://cse.msu.edu/~nandakum/) and [Dr. Samuel Horvath](https://sites.google.com/view/samuelhorvath/home). 
+I am Nurbek Tastan, currently pursuing a <b>Doctor of Philosophy</b> degree in <b>Machine Learning</b>. I am associated with the [SPriNT-AI lab](https://www.sprintai.org/) at MBZUAI, where I conduct my research under the guidance of my supervisors, [Dr. Karthik Nandakumar](https://cse.msu.edu/~nandakum/) and [Dr. Samuel Horvath](https://sites.google.com/view/samuelhorvath/home). 
 
 My research focuses on <b>trustworthy federated learning</b>, with particular emphasis on <b>fairness</b>, <b>privacy</b>, <b>efficiency</b>, and <b>robustness</b> in collaborative settings. I also develop methods to make large-scale models, including <b>language models</b>, more efficiently fine-tunable while also preserving utility and user confidentiality.
 
