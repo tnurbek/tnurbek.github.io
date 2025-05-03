@@ -17,6 +17,7 @@ mathjax: true
     <h4>
         <strong style="margin-right: 20px;"><a href="https://tnurbek.github.io/" target="_blank" rel="noopener noreferrer">Nurbek Tastan<sup>1</sup></a></strong>
         <strong style="margin-right: 20px;"><a href="https://sites.google.com/view/samuelhorvath/" target="_blank" rel="noopener noreferrer">Samuel Horvath<sup>1</sup></a></strong>
+        <strong style="margin-right: 20px;"><a href="https://mtakac.com/" target="_blank" rel="noopener noreferrer">Martin Takac<sup>1</sup></a></strong>
         <strong><a href="https://cse.msu.edu/~nandakum/" target="_blank" rel="noopener noreferrer">Karthik Nandakumar<sup>1,2</sup></a></strong>
     </h4>
     <h4>
