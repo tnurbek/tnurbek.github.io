@@ -42,3 +42,7 @@
 "ArXiv":
   url: https://arxiv.org/
   color: "#DC143C"
+
+"ICCV":
+  url: https://iccv.thecvf.com/Conferences/2025
+  color: "#90D5FF"
