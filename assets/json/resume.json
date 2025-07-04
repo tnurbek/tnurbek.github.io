@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Nurbek Tastan",
-    "label": "Doctoral Researcher",
+    "label": "PhD Candidate in Machine Learning",
     "image": "",
     "email": "nurbek.tastan@mbzuai.ac.ae",
     "phone": "",
     "url": "", 
-    "summary": "A doctoral researcher specializing in machine learning areas such as federated learning, trustworthy and fair machine learning.", 
+    "summary": "A doctoral researcher specializing in machine learning areas such as federated learning, distributed optimization, trustworthy and efficient machine learning.", 
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "",
@@ -47,7 +47,7 @@
       "institution": "International Information Technology University (IITU), Almaty, Kazakhstan",
       "location": "Almaty, Kazakhstan", 
       "url": "https://iitu.kz/", 
-      "area": "Computer Science, Cybersecurity", 
+      "area": "Computer Science", 
       "studyType": "BSc in  Systems of Information Security",
       "startDate": "2017-08-01",
       "endDate": "2021-06-01",
@@ -72,7 +72,7 @@
     {
       "name": "Dr. Karthik Nandakumar",
       "icon": "",
-      "reference": "karthik.nandakumar@mbzuai.ac.ae"
+      "reference": "karthik.nandakumar@mbzuai.ac.ae, nandakum@msu.edu"
     },
     {
       "name": "Dr. Samuel Horvath",
