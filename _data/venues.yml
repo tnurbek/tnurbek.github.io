@@ -46,3 +46,7 @@
 "ICCV":
   url: https://iccv.thecvf.com/Conferences/2025
   color: "#90D5FF"
+
+"TMLR":
+  url: https://jmlr.org/tmlr
+  color: "black"
