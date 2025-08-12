@@ -59,24 +59,27 @@
 }
 
 
-
-
-
 @InProceedings{tastan2025fedpews,
-    abbr= {CPAL},
-    title={Fed{PeWS}: Personalized Warmup via Subnetworks for Enhanced Heterogeneous Federated Learning},
-    author={Nurbek Tastan and Samuel Horv{\'a}th and Martin Tak{\'a}{\v{c}} and Karthik Nandakumar},
-    booktitle={The Second Conference on Parsimony and Learning (Proceedings Track)},
-    year={2025},
-    month={March},
-    url={https://openreview.net/forum?id=iYwiyS1YdQ}, 
-    series = 	 {Proceedings of Machine Learning Research},
-    bibtex_show={true},
-    code={https://github.com/tnurbek/fedpews},
-    project_page = {https://tnurbek.github.io/fedpews}, 
-    poster={fedpews.pdf},
-    preview={fedpews-scheme.png},
-    selected={true}
+  abbr= {CPAL},
+  title = 	 {{FedPeWS: Personalized Warmup via Subnetworks for Enhanced Heterogeneous Federated Learning}},
+  author =       {Tastan, Nurbek and Horv\'{a}th, Samuel and Tak\'{a}\v{c}, Martin and Nandakumar, Karthik},
+  booktitle = 	 {Conference on Parsimony and Learning},
+  pages = 	 {462--483},
+  year = 	 {2025},
+  editor = 	 {Chen, Beidi and Liu, Shijia and Pilanci, Mert and Su, Weijie and Sulam, Jeremias and Wang, Yuxiang and Zhu, Zhihui},
+  volume = 	 {280},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {24--27 Mar},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v280/main/assets/tastan25a/tastan25a.pdf},
+  url = 	 {https://proceedings.mlr.press/v280/tastan25a.html},
+  abstract = 	 {Statistical data heterogeneity is a significant barrier to convergence in federated learning (FL). While prior work has advanced heterogeneous FL through better optimization objectives, these methods fall short when there is *extreme* data heterogeneity among collaborating participants. We hypothesize that convergence under extreme data heterogeneity is primarily hindered due to the aggregation of conflicting updates from the participants in the initial collaboration rounds. To overcome this problem, we propose a warmup phase where each participant learns a personalized mask and updates only a subnetwork of the full model. This *personalized warmup* allows the participants to focus initially on learning specific *subnetworks* tailored to the heterogeneity of their data. After the warmup phase, the participants revert to standard federated optimization, where all parameters are communicated. We empirically demonstrate that the proposed personalized warmup via subnetworks (*FedPeWS*) approach improves accuracy and convergence speed over standard federated optimization methods. The code can be found at https://github.com/tnurbek/fedpews.}, 
+  bibtex_show={true},
+  code={https://github.com/tnurbek/fedpews},
+  project_page = {https://tnurbek.github.io/fedpews}, 
+  poster={fedpews.pdf},
+  preview={fedpews-scheme.png},
+  selected={true}
 }
 
 
