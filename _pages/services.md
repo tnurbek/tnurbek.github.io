@@ -15,11 +15,11 @@ nav_order: 6
         <ul>
             <li>Program Committee (PC) / Reviewer for <b style="font-weight:bold; color:blue;">conferences</b></li>
             <ul>
-                <li>AAAI 2024</li>
+                <li>AAAI 2024, AAAI 2026</li>
                 <li>ICLR 2025, ICML 2025, NeurIPS 2025</li>
                 <li>CVPR 2025, ICCV 2025, WACV 2026</li>
             </ul>
-            <li>Program Committee (PC) / Reviewer for <b style="font-weight:bold; color:purple;">journals</b></li>
+            <li class="mt-3">Program Committee (PC) / Reviewer for <b style="font-weight:bold; color:purple;">journals</b></li>
             <ul>
                 <li>IEEE Transactions on Mobile Computing (TMC)</li> 
                 <li>IEEE Signal Processing Letters (SPL)</li> 
