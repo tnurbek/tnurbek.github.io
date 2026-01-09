@@ -15,8 +15,8 @@ nav_order: 6
         <ul>
             <li>Reviewer / Program Committee (PC) for <b style="font-weight:bold; color:blue;">conferences</b></li>
             <ul>
-                <li>ICLR 2025, ICML 2025, NeurIPS 2025, ICLR 2026</li>
-                <li>CVPR 2025, ICCV 2025, WACV 2026</li>
+                <li>ICLR 2025, ICML 2025, NeurIPS 2025, ICLR 2026, ICML 2026</li>
+                <li>CVPR 2025, ICCV 2025, WACV 2026, CVPR 2026</li>
                 <li>AAAI 2024, AAAI 2026</li>
             </ul>
             <li class="mt-3">Reviewer for <b style="font-weight:bold; color:purple;">journals</b></li>
