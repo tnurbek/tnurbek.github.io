@@ -7,26 +7,51 @@ nav: true
 nav_order: 5
 ---
 
-<!-- For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course. -->
-<!-- Organize your courses by years, topics, or universities, however you like! -->
+<div class="experience-grid">
+  <section class="experience-card">
+    <h3 class="experience-org"><a href="https://mbzuai.ac.ae">MBZUAI</a></h3>
+    <ul class="experience-list">
+      <li>
+        <span class="experience-title">DS702: Big Data Processing</span>
+        <span class="experience-meta">Spring 2025</span>
+        <span class="experience-badge">Lead TA</span>
+      </li>
+      <li>
+        <span class="experience-title">MTH701: Mathematical Foundations of Artificial Intelligence</span>
+        <span class="experience-meta">Fall 2024</span>
+        <span class="experience-badge">Lead TA</span>
+      </li>
+      <li>
+        <span class="experience-title">DS702: Big Data Processing</span>
+        <span class="experience-meta">Spring 2024</span>
+        <span class="experience-badge">Lead TA</span>
+      </li>
+      <li>
+        <span class="experience-title">DS702: Big Data Processing</span>
+        <span class="experience-meta">Spring 2023</span>
+      </li>
+      <li>
+        <span class="experience-title">MTH701: Mathematical Foundations of Artificial Intelligence</span>
+        <span class="experience-meta">Fall 2022</span>
+      </li>
+      <li>
+        <span class="experience-title">DS702: Big Data Processing</span>
+        <span class="experience-meta">Spring 2022</span>
+      </li>
+    </ul>
+  </section>
 
-<div class="row">
-    <div class="col-sm-12">
-        <ul>
-            <li><a href="https://mbzuai.ac.ae">MBZUAI</a></li>
-            <ul>
-                <li><span style="font-weight:bold; color:red;">(Lead TA)</span> DS702: Big Data Processing [Spring, 2025]</li>
-                <li><span style="font-weight:bold; color:red;">(Lead TA)</span> MTH701: Mathematical Foundations of Artificial Intelligence [Fall, 2024]</li>
-                <li><span style="font-weight:bold; color:red;">(Lead TA)</span> DS702: Big Data Processing [Spring, 2024]</li>
-                <li>DS702: Big Data Processing [Spring, 2023]</li>
-                <li>MTH701: Mathematical Foundations of Artificial Intelligence [Fall, 2022]</li>
-                <li>DS702: Big Data Processing [Spring, 2022]</li>
-            </ul>
-            <li><a href="https://iitu.edu.kz/">IITU</a></li>
-            <ul>
-                <li>Introduction to C++ Programming Language [Spring, 2018]</li>
-                <li>Java Programming Language [Summer, 2019]</li>
-            </ul>
-        </ul>
-    </div>
+  <section class="experience-card">
+    <h3 class="experience-org"><a href="https://iitu.edu.kz/">IITU</a></h3>
+    <ul class="experience-list">
+      <li>
+        <span class="experience-title">Introduction to C++ Programming Language</span>
+        <span class="experience-meta">Spring 2018</span>
+      </li>
+      <li>
+        <span class="experience-title">Java Programming Language</span>
+        <span class="experience-meta">Summer 2019</span>
+      </li>
+    </ul>
+  </section>
 </div>
