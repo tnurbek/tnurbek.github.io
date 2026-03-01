@@ -16,6 +16,7 @@ div,
 li,
 span,
 strong {
+  font-family: "Manrope", "Avenir Next", "Segoe UI", sans-serif;
   color: var(--global-text-color);
 }
 
@@ -1124,4 +1125,3 @@ ninja-keys {
 ninja-keys::part(ninja-input-wrapper) {
   background: var(--global-bg-color);
 }
-
