@@ -1,14 +1,18 @@
-<div class="repo p-2 text-center">
-  <a href="https://github.com/{{ include.username }}">
-    <img
-      class="repo-img-light w-100"
-      alt="{{ include.username }}"
-      src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_light }}&show_icons=true"
-    >
-    <img
-      class="repo-img-dark w-100"
-      alt="{{ include.username }}"
-      src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_dark }}&show_icons=true"
-    >
-  </a>
+<div class="repo p-2">
+  <article class="repo-card repo-user-card" data-user="{{ include.username }}">
+    <div class="repo-card-top">
+      <a class="repo-card-name" href="https://github.com/{{ include.username }}" target="_blank" rel="noopener noreferrer">
+        {{ include.username }}
+      </a>
+      <a class="repo-card-open" href="https://github.com/{{ include.username }}" target="_blank" rel="noopener noreferrer" aria-label="Open {{ include.username }}">
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+      </a>
+    </div>
+    <p class="repo-card-desc">Loading profile details...</p>
+    <div class="repo-card-meta">
+      <span class="repo-card-pill"><i class="fa-regular fa-bookmark"></i> <span data-field="repos">--</span></span>
+      <span class="repo-card-pill"><i class="fa-regular fa-user"></i> <span data-field="followers">--</span></span>
+      <span class="repo-card-pill"><i class="fa-regular fa-user"></i> <span data-field="following">--</span></span>
+    </div>
+  </article>
 </div>
