@@ -506,11 +506,18 @@ body.sticky-bottom-footer {
       border-spacing: 0 0.55rem;
     }
 
+    .table tr {
+      display: block;
+      width: 100%;
+    }
+
     .table th,
     .table td {
       display: block;
-      width: 100%;
+      width: 100% !important;
+      max-width: 100%;
       min-width: 0;
+      box-sizing: border-box;
       border-radius: 0;
       border-left: 1px solid var(--global-divider-color);
       border-right: 1px solid var(--global-divider-color);
@@ -523,6 +530,7 @@ body.sticky-bottom-footer {
       border-top-right-radius: 10px;
       border-bottom: 0;
       font-size: 0.86rem;
+      white-space: normal;
     }
 
     .table td {
