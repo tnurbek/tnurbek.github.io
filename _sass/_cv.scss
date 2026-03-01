@@ -219,11 +219,39 @@ ul.timeline li::before {
   }
 
   .cv .card-title {
-    font-weight: 700;
-    font-size: 1.12rem;
-    margin-bottom: 0.55rem;
-    padding-bottom: 0.45rem;
-    border-bottom: 1px solid var(--global-divider-color);
+    display: flex;
+    align-items: center;
+    gap: 0.58rem;
+    margin-bottom: 0.62rem;
+    padding-bottom: 0;
+    border-bottom: 0;
+    font-size: 1.02rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.055em;
+
+    &::before {
+      content: "";
+      width: 10px;
+      height: 10px;
+      border-radius: 999px;
+      background-color: var(--global-theme-color);
+      opacity: 1;
+      box-shadow: 0 0 0 3px color-mix(in srgb, var(--global-theme-color) 20%, transparent);
+    }
+
+    &::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(
+        90deg,
+        color-mix(in srgb, var(--global-theme-color) 38%, var(--global-divider-color)) 0%,
+        var(--global-divider-color) 70%,
+        transparent 100%
+      );
+      margin-left: 0.2rem;
+    }
   }
 
   .cv .list-group-item {
@@ -308,9 +336,14 @@ a.btncv {
     }
 
     .cv .card-title {
-      font-size: 1.04rem;
-      margin-bottom: 0.45rem;
-      padding-bottom: 0.4rem;
+      font-size: 0.9rem;
+      margin-bottom: 0.55rem;
+      letter-spacing: 0.05em;
+
+      &::before {
+        width: 8px;
+        height: 8px;
+      }
     }
 
     .cv .table-cv .badge {

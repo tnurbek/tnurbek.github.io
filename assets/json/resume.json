@@ -10,9 +10,9 @@
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "",
-      "city": "Abu-Dhabi",
+      "city": "Abu Dhabi",
       "countryCode": "UAE",
-      "region": "Abu-Dhabi"
+      "region": "Abu Dhabi"
     },
     "profiles": [
       {
@@ -24,8 +24,8 @@
   },
   "education": [
     {
-      "institution": "Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), Abu-Dhabi, UAE",
-      "location": "Abu-Dhabi, UAE",
+      "institution": "Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), Abu Dhabi, UAE",
+      "location": "Abu Dhabi, UAE",
       "url": "https://mbzuai.ac.ae/",
       "area": "Machine Learning",
       "studyType": "PhD in Machine Learning",
@@ -34,8 +34,8 @@
       "score": "10"
     }, 
     {
-      "institution": "Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), Abu-Dhabi, UAE",
-      "location": "Abu-Dhabi, UAE",
+      "institution": "Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), Abu Dhabi, UAE",
+      "location": "Abu Dhabi, UAE",
       "url": "https://mbzuai.ac.ae/",
       "area": "Machine Learning",
       "studyType": "MSc in Machine Learning",
