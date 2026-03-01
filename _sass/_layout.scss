@@ -113,12 +113,24 @@ body.sticky-bottom-footer {
 
   .news .table {
     margin-bottom: 0.15rem;
+    color: var(--global-text-color);
   }
 
   .news th {
     width: 22%;
     min-width: 92px;
     font-weight: 600;
+    color: var(--global-text-color-light);
+  }
+
+  .news td {
+    color: var(--global-text-color);
+  }
+
+  .news td span,
+  .news td .item,
+  .news td .subitem {
+    color: var(--global-text-color);
   }
 
   .home-section-card .publications {
@@ -474,6 +486,13 @@ body.sticky-bottom-footer {
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
     line-height: 1.55;
+    color: var(--global-text-color);
+  }
+
+  .table td span,
+  .table td .item,
+  .table td .subitem {
+    color: var(--global-text-color);
   }
 
   .news-title {

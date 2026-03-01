@@ -270,6 +270,15 @@ ul.timeline li::before {
     color: var(--global-text-color);
   }
 
+  .cv p,
+  .cv li,
+  .cv td,
+  .cv .item,
+  .cv .subitem,
+  .cv .item-title {
+    color: var(--global-text-color);
+  }
+
   .cv ul.items {
     margin-top: 0.4rem;
     margin-bottom: 0.2rem;
