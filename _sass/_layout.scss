@@ -111,10 +111,11 @@ body.sticky-bottom-footer {
   }
 }
 
-.home-main {
+  .home-main {
   .profile {
     position: relative;
     z-index: 2;
+    box-sizing: border-box;
     width: min(34%, 300px);
     margin-left: 1rem;
     margin-bottom: 0.9rem;
@@ -128,6 +129,10 @@ body.sticky-bottom-footer {
       display: block;
       width: 100%;
       border-radius: 8px;
+    }
+
+    figure {
+      margin: 0;
     }
 
     .more-info {
@@ -420,6 +425,19 @@ body.sticky-bottom-footer {
     .home-section-card {
       padding: 0.55rem 0.6rem;
       border-radius: 10px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .home-main {
+    .profile {
+      float: none !important;
+      width: 100%;
+      max-width: 360px;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      display: block;
     }
   }
 }
