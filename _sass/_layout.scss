@@ -113,6 +113,8 @@ body.sticky-bottom-footer {
 
 .home-main {
   .profile {
+    position: relative;
+    z-index: 2;
     width: min(34%, 300px);
     margin-left: 1rem;
     margin-bottom: 0.9rem;
@@ -138,9 +140,67 @@ body.sticky-bottom-footer {
   }
 
   .home-intro {
-    line-height: 1.75;
-    font-size: 1.04rem;
+    position: relative;
+    z-index: 1;
     margin-bottom: 1.3rem;
+    padding: 1rem 1.05rem 0.85rem 1.15rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 12px;
+    background-color: var(--global-card-bg-color);
+    box-shadow: 0 8px 18px -22px rgba(0, 0, 0, 0.65);
+    line-height: 1.76;
+    font-size: 1.04rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 4px;
+      border-top-left-radius: 12px;
+      border-bottom-left-radius: 12px;
+      background: linear-gradient(
+        180deg,
+        color-mix(in srgb, var(--global-theme-color) 86%, transparent) 0%,
+        color-mix(in srgb, var(--global-theme-color) 36%, transparent) 100%
+      );
+    }
+
+    p {
+      margin-bottom: 0.85rem;
+    }
+
+    p:first-child {
+      font-size: 1.085rem;
+      line-height: 1.72;
+      font-weight: 500;
+    }
+
+    p:last-child {
+      margin-bottom: 0.15rem;
+    }
+
+    b,
+    strong {
+      font-weight: 700;
+      color: color-mix(in srgb, var(--global-text-color) 88%, var(--global-theme-color));
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.11rem;
+    }
+
+    a {
+      color: var(--global-theme-color);
+      text-decoration: underline;
+      text-underline-offset: 0.1rem;
+      text-decoration-thickness: 1px;
+    }
+
+    a:hover {
+      color: color-mix(in srgb, var(--global-theme-color) 86%, black);
+      text-decoration-thickness: 2px;
+    }
   }
 
   .home-section-title {
@@ -335,8 +395,14 @@ body.sticky-bottom-footer {
     }
 
     .home-intro {
+      padding: 0.82rem 0.8rem 0.72rem 0.95rem;
+      border-radius: 10px;
       font-size: 1rem;
       line-height: 1.68;
+
+      p:first-child {
+        font-size: 1.02rem;
+      }
     }
 
     .home-section-title {

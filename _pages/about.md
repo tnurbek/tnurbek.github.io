@@ -27,11 +27,14 @@ I am Nurbek Tastan, a PhD candidate in <b>Machine Learning</b> at [MBZUAI](https
 I conduct my research under the guidance of [Dr. Karthik Nandakumar](https://cse.msu.edu/~nandakum/) and [Dr. Samuel Horvath](https://sites.google.com/view/samuelhorvath/home). 
 <!-- pursuing a <b>Doctor of Philosophy</b> degree in <b>Machine Learning</b>. I am associated with the [SPriNT-AI lab](https://www.sprintai.org/) at MBZUAI, where -->
 
-My research focuses on <b>trustworthy and efficient machine learning</b>, with particular emphasis on <b>fairness</b>, <b>privacy</b>, <b>robustness</b>, and <b>efficiency</b> in collaborative settings. I also develop methods to make large-scale models, including <b>large language models</b>, more efficiently fine-tunable while also preserving utility and user confidentiality. 
+My research focuses on <b>trustworthy and efficient machine learning</b>, with particular emphasis on <b>incentivization</b>, <b>privacy</b>, <b>robustness</b>, and <b>efficiency</b> in collaborative settings. I also develop methods to make large-scale models, including <b>large language models</b>, more efficiently fine-tunable while also preserving utility and confidentiality. 
+
+<b>Currently</b> expanding my research toward agentic AI and LLMs, with a focus on the trustworthiness and efficiency of such systems.
 
 <!-- My research focuses on <b>trustworthy federated learning</b>, with particular emphasis on <b>fairness</b>, <b>privacy</b>, <b>efficiency</b>, and <b>robustness</b> in collaborative settings.  -->
 
 Passionate about building machine learning systems that are not only performant, but also <b>equitable</b>, <b>privacy-aware</b>, and <b>computationally viable</b> for real-world deployment. 
+
 
 
 <!-- ```yaml
