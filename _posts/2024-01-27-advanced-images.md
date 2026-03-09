@@ -9,6 +9,8 @@ thumbnail: assets/img/9.jpg
 images:
   compare: true
   slider: true
+noindex: true
+sitemap: false
 ---
 
 This is an example post with advanced image components.
