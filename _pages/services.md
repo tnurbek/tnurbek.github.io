@@ -18,6 +18,7 @@ nav_order: 6
         <li>NeurIPS 2025</li>
         <li>ICLR 2026</li>
         <li>ICML 2026</li>
+        <li>NeurIPS 2026</li>
       </ul>
     </div>
     <div class="review-cluster">
