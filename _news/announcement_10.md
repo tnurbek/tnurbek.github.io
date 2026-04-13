@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [A Framework for Double-Blind Federated Adaptation of Foundation Models](https://openreview.net/forum?id=stv0Fqxekz) was accepted at **ICCV 2025**. :sparkles:
+Our paper [A Framework for Double-Blind Federated Adaptation of Foundation Models](https://openreview.net/forum?id=stv0Fqxekz) was accepted at <span style="font-weight: 700;">ICCV 2025</span>. :sparkles:
