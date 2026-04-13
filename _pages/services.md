@@ -29,6 +29,7 @@ nav_order: 6
         <li>WACV 2026</li>
         <li>CVPR 2026</li>
         <li>ECCV 2026</li>
+        <li>BMVC 2026</li>
       </ul>
     </div>
     <div class="review-cluster">
@@ -52,9 +53,8 @@ nav_order: 6
   <section class="experience-card">
     <h3 class="experience-org">Workshop Reviewing</h3>
     <ul class="experience-list">
-      <li>
-        <span class="experience-title">ICLR 2026 Workshop: Lifelong Agents: Learning, Aligning, Evolving</span>
-      </li>
+      <li><span class="experience-title">ICLR 2026 Workshop: Lifelong Agents: Learning, Aligning, Evolving</span></li>
+      <li><span class="experience-title">ICML 2026 Workshop: AdaptFM: Resource-Adaptive Foundation Model Inference</span></li>
     </ul>
   </section>
 </div>
