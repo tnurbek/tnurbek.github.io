@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am currently in Rio, attending <span style="font-weight: 700;">ICLR 2026</span>. Let's catch up if you are here! :sparkles:
+I am currently in Rio :brazil:, attending <span style="font-weight: 700;">ICLR 2026</span>. Let's catch up if you are here! :sparkles:

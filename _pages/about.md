@@ -23,17 +23,19 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-I am Nurbek Tastan, a PhD candidate in <b>Machine Learning</b> at [MBZUAI](https://mbzuai.ac.ae/), affiliated with the [SPriNT-AI lab](https://www.sprintai.org/). 
-I conduct my research under the guidance of [Dr. Karthik Nandakumar](https://cse.msu.edu/~nandakum/) and [Dr. Samuel Horvath](https://sites.google.com/view/samuelhorvath/home). 
-<!-- pursuing a <b>Doctor of Philosophy</b> degree in <b>Machine Learning</b>. I am associated with the [SPriNT-AI lab](https://www.sprintai.org/) at MBZUAI, where -->
+I am Nurbek Tastan, a PhD candidate in Machine Learning at [MBZUAI](https://mbzuai.ac.ae/) and a member of the [SPriNT-AI lab](https://www.sprintai.org/), advised by [Dr. Karthik Nandakumar](https://cse.msu.edu/~nandakum/) and [Dr. Samuel Horvath](https://sites.google.com/view/samuelhorvath/home).
 
-My research focuses on <b>trustworthy and efficient machine learning</b>, with particular emphasis on <b>incentivization</b>, <b>privacy</b>, <b>robustness</b>, and <b>efficiency</b> in collaborative settings. I also develop methods to make large-scale models, including <b>large language models</b>, more efficiently fine-tunable while also preserving utility and confidentiality. 
+My research focuses on trustworthy and efficient machine learning, especially privacy, robustness, incentivization, and efficiency in collaborative settings. More recently, I have been exploring agentic AI and large language models, with an emphasis on building systems that are practical, reliable, and privacy-aware in real-world deployment.
 
-<b>Currently</b> expanding my research toward agentic AI and LLMs, with a focus on the trustworthiness and efficiency of such systems.
-
-<!-- My research focuses on <b>trustworthy federated learning</b>, with particular emphasis on <b>fairness</b>, <b>privacy</b>, <b>efficiency</b>, and <b>robustness</b> in collaborative settings.  -->
-
-Passionate about building machine learning systems that are not only performant, but also <b>equitable</b>, <b>privacy-aware</b>, and <b>computationally viable</b> for real-world deployment. 
+<p style="margin-top: 1rem; line-height: 1.9;">
+  <span style="font-weight: 700; color: #b45309;">#TrustworthyML</span>
+  <span style="margin-left: 0.65rem; font-weight: 700; color: #b45309;">#EfficientML</span>
+  <span style="margin-left: 0.65rem; margin-right: 0.65rem; font-weight: 700; color: #b45309;">#CollaborativeLearning</span>
+  <span style="font-weight: 700; color: #b45309;">#AgenticAI</span>
+  <span style="margin-left: 0.65rem; font-weight: 700; color: #b45309;">#MultiAgentSystems</span>
+  <span style="margin-left: 0.65rem; font-weight: 700; color: #b45309;">#EfficientLLMs</span>
+  <span style="margin-left: 0.65rem; font-weight: 700; color: #b45309;">#Watermarking</span>
+</p>
 
 
 
