@@ -12,6 +12,13 @@ nav_order: 8
     Map view: visited countries in blue, unvisited countries in white, black borders.
   </p>
   <div class="flat-map-wrap">
+    <div class="flat-map-overlay" aria-hidden="true">
+      <div class="flat-map-legend">
+        <span><i class="legend-swatch legend-country"></i>Visited Country</span>
+        <span><i class="legend-swatch legend-city"></i>Visited City</span>
+      </div>
+      <div class="flat-map-stats" id="flat-map-stats">0 countries • 0 cities</div>
+    </div>
     <svg id="flat-world-map" class="flat-world-map" viewBox="0 0 1200 640" aria-label="Visited countries map"></svg>
   </div>
 </div>
@@ -27,9 +34,11 @@ nav_order: 8
   }
 
   .flat-map-wrap {
+    position: relative;
     width: 100%;
-    border: 0;
-    background: #ffffff;
+    background: #fcfcfc;
+    border-radius: 10px;
+    box-shadow: 0 10px 24px rgba(10, 20, 35, 0.08);
   }
 
   .flat-world-map {
@@ -37,21 +46,97 @@ nav_order: 8
     width: 100%;
     height: auto;
     min-height: 340px;
-    background: #ffffff;
-    border: 1px solid #111111;
-    border-radius: 8px;
+    background: #fcfcfc;
+    border: 1px solid #101010;
+    border-radius: 10px;
   }
 
   .flat-country {
-    stroke: #111111;
-    stroke-width: 0.8;
+    stroke: #171717;
+    stroke-width: 0.75;
     vector-effect: non-scaling-stroke;
   }
 
   .flat-city {
-    stroke: #111111;
-    stroke-width: 1.2;
+    stroke: #101010;
+    stroke-width: 1.3;
     vector-effect: non-scaling-stroke;
+  }
+
+  .flat-city-label {
+    font-size: 13px;
+    font-weight: 700;
+    fill: #111111;
+    paint-order: stroke;
+    stroke: #ffffff;
+    stroke-width: 3px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .flat-map-overlay {
+    position: absolute;
+    top: 0.65rem;
+    right: 0.65rem;
+    z-index: 2;
+    display: grid;
+    gap: 0.4rem;
+    justify-items: end;
+    pointer-events: none;
+  }
+
+  .flat-map-legend,
+  .flat-map-stats {
+    background: rgba(255, 255, 255, 0.92);
+    border: 1px solid #1d1d1d;
+    border-radius: 999px;
+    padding: 0.3rem 0.62rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #111111;
+    backdrop-filter: blur(2px);
+  }
+
+  .flat-map-legend {
+    display: flex;
+    gap: 0.65rem;
+    flex-wrap: wrap;
+  }
+
+  .legend-swatch {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin-right: 0.28rem;
+    transform: translateY(1px);
+  }
+
+  .legend-country {
+    border: 1px solid #0f0f0f;
+    background: var(--global-theme-color);
+  }
+
+  .legend-city {
+    border-radius: 50%;
+    border: 1px solid #0f0f0f;
+    background: #c77a1f;
+  }
+
+  @media (max-width: 992px) {
+    .flat-world-map {
+      min-height: 55vh;
+    }
+
+    .flat-map-overlay {
+      left: 0.65rem;
+      right: 0.65rem;
+      justify-items: stretch;
+    }
+
+    .flat-map-legend,
+    .flat-map-stats {
+      border-radius: 10px;
+    }
   }
 </style>
 
@@ -65,6 +150,7 @@ nav_order: 8
       : [];
     const visitedPlaces = Array.isArray(travelData && travelData.visited_places) ? travelData.visited_places : [];
     const svg = d3.select('#flat-world-map');
+    const statsEl = document.getElementById('flat-map-stats');
     const width = 1200;
     const height = 640;
     const worldDataUrl = 'https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json';
@@ -100,6 +186,9 @@ nav_order: 8
     const accentColor =
       getComputedStyle(document.documentElement).getPropertyValue('--global-theme-color').trim() || '#1d4ed8';
     const cityMarkerColor = '#c77a1f';
+    const cityGlowColor = '#f3bc66';
+
+    statsEl.textContent = `${visitedCountrySet.size} countries • ${visitedPlaces.length} cities`;
 
     const draw = async () => {
       try {
@@ -120,8 +209,8 @@ nav_order: 8
         );
         const path = d3.geoPath(projection);
 
-        svg
-          .append('g')
+        const countryGroup = svg.append('g').style('opacity', 0);
+        countryGroup
           .selectAll('path')
           .data(features)
           .join('path')
@@ -130,7 +219,7 @@ nav_order: 8
           .attr('fill', (feature) => {
             const props = feature && feature.properties ? feature.properties : {};
             const name = props.name || props.NAME || props.admin || '';
-            return visitedCountrySet.has(normalizeCountry(name)) ? accentColor : '#ffffff';
+            return visitedCountrySet.has(normalizeCountry(name)) ? accentColor : '#fcfcfc';
           })
           .append('title')
           .text((feature) => {
@@ -156,8 +245,19 @@ nav_order: 8
           })
           .filter(Boolean);
 
-        svg
-          .append('g')
+        const cityGlowGroup = svg.append('g').style('opacity', 0);
+        cityGlowGroup
+          .selectAll('circle')
+          .data(markerData)
+          .join('circle')
+          .attr('cx', (d) => d.x)
+          .attr('cy', (d) => d.y)
+          .attr('r', 7.5)
+          .attr('fill', cityGlowColor)
+          .attr('opacity', 0.32);
+
+        const cityGroup = svg.append('g').style('opacity', 0);
+        cityGroup
           .selectAll('circle')
           .data(markerData)
           .join('circle')
@@ -168,6 +268,32 @@ nav_order: 8
           .attr('fill', cityMarkerColor)
           .append('title')
           .text((d) => `${d.city}, ${d.country}${d.event ? ` - ${d.event}` : ''}${d.date ? ` (${d.date})` : ''}`);
+
+        const priorityCities = new Set(['Cambridge', 'Singapore']);
+        const prioritized = markerData.filter((d) => priorityCities.has(d.city));
+        const fallback = markerData.filter((d) => !priorityCities.has(d.city)).slice(0, 8);
+        const labelData = prioritized.concat(fallback).map((d, idx) => ({
+          ...d,
+          dx: idx % 2 === 0 ? 8 : -8,
+          dy: idx % 3 === 0 ? -8 : 12,
+          anchor: idx % 2 === 0 ? 'start' : 'end',
+        }));
+
+        const labelGroup = svg.append('g').style('opacity', 0);
+        labelGroup
+          .selectAll('text')
+          .data(labelData)
+          .join('text')
+          .attr('class', 'flat-city-label')
+          .attr('x', (d) => d.x + d.dx)
+          .attr('y', (d) => d.y + d.dy)
+          .attr('text-anchor', (d) => d.anchor)
+          .text((d) => d.city);
+
+        countryGroup.transition().duration(650).style('opacity', 1);
+        cityGlowGroup.transition().delay(280).duration(680).style('opacity', 1);
+        cityGroup.transition().delay(320).duration(680).style('opacity', 1);
+        labelGroup.transition().delay(420).duration(650).style('opacity', 1);
       } catch (error) {
         console.error(error);
       }

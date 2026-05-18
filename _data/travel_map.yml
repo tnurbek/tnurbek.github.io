@@ -97,7 +97,7 @@ visited_places:
     latitude: -22.9068
     longitude: -43.1729
     event: ICLR 2026
-    date: May 2026
+    date: April 2026
     note: Conference attendance and research meetings.
     photos:
       # - src: /assets/img/travel/brazil/rio-1.jpg
@@ -110,8 +110,11 @@ visited_places:
   
   - country: Singapore
     city: Singapore
-    latitude: 1.3521
-    longitude: 103.8198
+    latitude: 1.2903
+    longitude: 103.8519
+    event: ICLR 2025
+    date: April 2025
+    note: Conference attendance.
 
   - country: United States of America
     city: Michigan
@@ -135,8 +138,9 @@ visited_places:
   
   - country: United Kingdom
     city: Cambridge
-    latitude: 52.2053
-    longitude: 0.1218
+    latitude: 52.2050
+    longitude: 0.1190
+    note: Research visit and collaboration meetings.
   
   - country: Azerbaijan
     city: Baku
