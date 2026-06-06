@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [BlindFed](https://openreview.net/forum?id=stv0Fqxekz) on double-blind fine-tuning of foundation mo was accepted at <span style="font-weight: 700;">ICCV 2025</span>. :sparkles:
+Our paper [BlindFed](https://openreview.net/forum?id=stv0Fqxekz) on double-blind fine-tuning of foundation models was accepted at <span style="font-weight: 700;">ICCV 2025</span>. :sparkles:
