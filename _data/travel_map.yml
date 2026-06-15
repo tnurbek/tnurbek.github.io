@@ -115,6 +115,14 @@ visited_places:
     event: ICLR 2025
     date: April 2025
     note: Conference attendance.
+  
+  - country: United States of America
+    city: Denver
+    latitude: 39.7392
+    longitude: -104.9903
+    event: CVPR 2026 
+    date: June 2026
+    note: Conference attendance. 
 
   - country: United States of America
     city: Michigan

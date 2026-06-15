@@ -269,7 +269,7 @@ nav_order: 8
           .append('title')
           .text((d) => `${d.city}, ${d.country}${d.event ? ` - ${d.event}` : ''}${d.date ? ` (${d.date})` : ''}`);
 
-        const priorityCities = new Set(['Cambridge', 'Singapore']);
+        const priorityCities = new Set(['Cambridge', 'Singapore', 'Denver']);
         const prioritized = markerData.filter((d) => priorityCities.has(d.city));
         const fallback = markerData.filter((d) => !priorityCities.has(d.city)).slice(0, 8);
         const labelData = prioritized.concat(fallback).map((d, idx) => ({
