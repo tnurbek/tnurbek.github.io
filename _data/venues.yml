@@ -58,3 +58,11 @@
 "ICLR":
   url: https://iclr.cc/
   color: "#0F172A"
+
+"CVPRW":
+  url: https://cvpr.thecvf.com/
+  color: "#964687"
+
+"ECCV":
+  url: https://eccv.ecva.net/
+  color: "#356864"

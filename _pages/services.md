@@ -30,6 +30,7 @@ nav_order: 6
         <li>CVPR 2026</li>
         <li>ECCV 2026</li>
         <li>BMVC 2026</li>
+        <li>WACV 2027</li>
       </ul>
     </div>
     <div class="review-cluster">
@@ -37,6 +38,7 @@ nav_order: 6
       <ul class="tag-list">
         <li>AAAI 2024</li>
         <li>AAAI 2026</li>
+        <li>AAAI 2027</li>
       </ul>
     </div>
   </section>
@@ -45,6 +47,7 @@ nav_order: 6
     <h3 class="experience-org">Journal Reviewing</h3>
     <ul class="experience-list">
       <li><span class="experience-title">IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</span></li>
+      <li><span class="experience-title">Transactions on Machine Learning Research (TMLR)</span></li>
       <li><span class="experience-title">IEEE Transactions on Mobile Computing (TMC)</span></li>
       <li><span class="experience-title">IEEE Signal Processing Letters (SPL)</span></li>
     </ul>
