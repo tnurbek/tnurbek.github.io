@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [Redefining Contributions: Shapley-Driven Federated Learning](https://tnurbek.github.io/shapfed/) was accepted at <span style="font-weight: 700;">IJCAI 2024</span>. :sparkles:
+Our paper [ShapFed](https://tnurbek.github.io/shapfed/) on contribution assessment was accepted at <span style="font-weight: 700;">IJCAI 2024</span>. :sparkles:

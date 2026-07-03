@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [CYCle: Choosing Your Collaborators Wisely to Enhance Collaborative Fairness in Decentralized Learning](https://openreview.net/forum?id=ygqNiLQqfH) was accepted at <span style="font-weight: 700;">TMLR</span>. :sparkles:
+Our paper [CYCle](https://openreview.net/forum?id=ygqNiLQqfH) on decentralized learning was accepted at <span style="font-weight: 700;">TMLR</span>. :sparkles:

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [Aequa: Fair Model Rewards in Collaborative Learning via Slimmable Networks](https://openreview.net/forum?id=Tw81RElDpe) was accepted at <span style="font-weight: 700;">ICML 2025</span>. :sparkles:
+Our paper [Aequa](https://openreview.net/forum?id=Tw81RElDpe) on incentivization in federated learning was accepted at <span style="font-weight: 700;">ICML 2025</span>. :sparkles:
