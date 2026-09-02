@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate in Machine Learning, <a href='https://mbzuai.ac.ae/'>MBZUAI</a>.
+subtitle: Machine Learning Researcher · PhD, <a href='https://mbzuai.ac.ae/'>MBZUAI</a>
 
 profile:
   align: right
@@ -23,7 +23,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-I am Nurbek Tastan, a PhD candidate in Machine Learning at [MBZUAI](https://mbzuai.ac.ae/) and a member of the [SPriNT-AI lab](https://www.cse.msu.edu/~nandakum/home.html), advised by [Dr. Karthik Nandakumar](https://cse.msu.edu/~nandakum/) and [Dr. Samuel Horvath](https://sites.google.com/view/samuelhorvath/home).
+I am Nurbek Tastan, a machine learning researcher with a PhD in Machine Learning from [MBZUAI](https://mbzuai.ac.ae/). I conducted my doctoral research with the [SPriNT-AI lab](https://www.cse.msu.edu/~nandakum/home.html), advised by [Dr. Karthik Nandakumar](https://cse.msu.edu/~nandakum/) and [Dr. Samuel Horvath](https://sites.google.com/view/samuelhorvath/home).
 
 My research focuses on trustworthy and efficient machine learning, especially privacy, robustness, incentivization, and efficiency in collaborative settings. More recently, I have been exploring agentic AI and large language models, with an emphasis on building systems that are practical, reliable, and privacy-aware in real-world deployment.
 

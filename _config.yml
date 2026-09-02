@@ -8,7 +8,7 @@ middle_name:
 last_name: Tastan
 email: nurbek.tastan@mbzuai.ac.ae
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal academic website of Nurbek Tastan, PhD candidate in Machine Learning at MBZUAI, focused on trustworthy and efficient ML, collaborative learning, and LLMs.
+  Personal academic website of Nurbek Tastan, a machine learning researcher with a PhD from MBZUAI, focused on trustworthy and efficient ML, collaborative learning, and LLMs.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>. 
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
