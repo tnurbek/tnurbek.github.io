@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <a href="mailto:nurbek.tastan@mbzuai.ac.ae">nurbek.tastan@mbzuai.ac.ae</a>
-    <p>Abu Dhabi, UAE</p> 
+    <p>Cupertino, CA</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -41,7 +41,7 @@ My research focuses on trustworthy and efficient machine learning, especially pr
 
 <!-- ```yaml
 name: Nurbek Tastan 
-located_in: Abu Dhabi, UAE 
+located_in: Cupertino, CA
 from: Almaty, Kazakhstan
 current position: Doctoral Researcher 
 education: ["PhD in Machine Learning", "MSc in Machine Learning", "BSc in Cybersecurity"] 
