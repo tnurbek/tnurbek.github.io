@@ -9,7 +9,6 @@ profile:
   image: profile_photo.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <a href="mailto:nurbek.tastan@mbzuai.ac.ae">nurbek.tastan@mbzuai.ac.ae</a>
     <p>Cupertino, CA</p>
 
 news: true # includes a list of news items
