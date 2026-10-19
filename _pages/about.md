@@ -25,7 +25,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 I am Nurbek Tastan, an AI/ML Resident at [Apple](https://www.apple.com/), where I work as a machine learning researcher. I joined Apple in September 2026 after completing my PhD in Machine Learning at [MBZUAI](https://mbzuai.ac.ae/). I conducted my doctoral research with the [SPriNT-AI lab](https://www.cse.msu.edu/~nandakum/home.html), advised by [Dr. Karthik Nandakumar](https://cse.msu.edu/~nandakum/) and [Dr. Samuel Horvath](https://sites.google.com/view/samuelhorvath/home).
 
-My research focuses on trustworthy and efficient machine learning, especially privacy, robustness, incentivization, and efficiency in collaborative settings. My current work centers on multimodal large language models (LLMs) and vision-language models (VLMs), while I continue to explore agentic AI and systems that are practical, reliable, and privacy-aware in real-world deployment.
+My research focuses on trustworthy and efficient machine learning, especially privacy, robustness, incentivization, and efficiency in collaborative settings. More recently, I have been exploring agentic AI, large language models (LLMs), and vision-language models (VLMs), with an emphasis on building systems that are practical, reliable, and privacy-aware in real-world deployment.
 
 <p style="margin-top: 1rem; line-height: 1.9;">
   <span style="font-weight: 700; color: #b45309;">#TrustworthyML</span>
@@ -34,7 +34,6 @@ My research focuses on trustworthy and efficient machine learning, especially pr
   <span style="font-weight: 700; color: #b45309;">#AgenticAI</span>
   <span style="margin-left: 0.65rem; font-weight: 700; color: #b45309;">#MultiAgentSystems</span>
   <span style="margin-left: 0.65rem; font-weight: 700; color: #b45309;">#EfficientLLMs</span>
-  <span style="margin-left: 0.65rem; font-weight: 700; color: #b45309;">#VLMs</span>
   <span style="margin-left: 0.65rem; font-weight: 700; color: #b45309;">#Watermarking</span>
 </p>
 
